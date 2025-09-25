@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Blog de Video Aulas de Marketing Digital</title>
+<!-- Fontes do Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+<!-- Estilos CSS -->
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .post {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .post:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+  }
+
+  .post iframe {
+    width: 100%;
+    height: 180px;
+  }
+
+  .post-content {
+    padding: 15px;
+  }
+
+  .post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  .post p {
+    font-size: 1em;
+    color: #555;
+  }
+
+  footer {
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
+  }
+
+  @media(max-width: 768px){
+    header h1 {
+      font-size: 2em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Blog de Video Aulas - Marketing Digital</h1>
+  <p>Aprenda marketing digital com vídeos incríveis!</p>
+</header>
+
+<div class="container">
+  <div class="posts">
+
+    <!-- Aula 1 -->
+    <div class="post">
+      <iframe src="https://www.youtube.com/embed/seuVideoID1" frameborder="0" allowfullscreen></iframe>
+      <div class="post-content">
+        <h2>Introdução ao Marketing Digital</h2>
+        <p>Aprenda os conceitos básicos e a importância do marketing digital nos dias de hoje.</p>
+      </div>
+    </div>
+
+    <!-- Aula 2 -->
+    <div class="post">
+      <iframe src="https://www.youtube.com/embed/seuVideoID2" frameborder="0" allowfullscreen></iframe>
+      <div class="post-content">
+        <h2>Estratégias de Conteúdo</h2>
+        <p>Descubra como criar conteúdo que engaja seu público e gera resultados.</p>
+      </div>
+    </div>
+
+    <!-- Aula 3 -->
+    <div class="post">
+      <iframe src="https://www.youtube.com/embed/seuVideoID3" frameborder="0" allowfullscreen></iframe>
+      <div class="post-content">
+        <h2>Facebook Ads</h2>
+        <p>Aprenda a criar campanhas eficazes no Facebook para alcançar seu público ideal.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Seus Cursos. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
